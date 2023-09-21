@@ -1,0 +1,6 @@
+.vscode/
+build/
+.algolabVS
+.cx_metadata.json
+CMakeLists.txt
+debug_test_data.txt
