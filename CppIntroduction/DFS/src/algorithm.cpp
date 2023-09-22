@@ -37,14 +37,12 @@ void testcase() {
 
 	dfs(g, v, 0);
 
-	for (const auto n: g) {
+	for (const auto n: g)
 		std::cout << n.discovery << " ";
-	}
 	std::cout << std::endl;
 
-	for (const auto n: g) {
+	for (const auto n: g)
 		std::cout << n.completion << " ";
-	}
 	std::cout << std::endl;
 }
 

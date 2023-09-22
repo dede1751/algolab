@@ -45,9 +45,8 @@ void testcase() {
 
 	bfs(g, v);
 
-  	for (const auto n: g) {
+  	for (const auto n: g)
 		std::cout << n.distance << " ";
-  	}
 	std::cout << std::endl;
 }
 
