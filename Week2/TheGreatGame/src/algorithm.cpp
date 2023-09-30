@@ -7,44 +7,49 @@
 #include <vector>
 #include <array>
 
-typedef std::vector<std::vector<int>> ADJ_LIST;
-typedef std::vector<std::vector<std::array<int, 4>>> MEMO;
+typedef std::vector<std::vector<int>> ADJ;
+typedef std::vector<std::pair<int, int>> DP;
 
-int search(ADJ_LIST const &adj, MEMO &mem, const int r, const int b, const int turn, const int color, const int n) {
-	int turn_col = turn * 2 + color;
-
-	if (r == n)
+int search(ADJ const &adj, DP &dp, const unsigned int pos, const bool minimize) {
+	if (pos == dp.size() - 1)
 		return 0;
-	else if (b == n)
-		return 1;
-	else if (mem[r][b][turn_col] != -1)
-		return mem[r][b][turn_col];
+	else {
+		int memo = minimize ? dp[pos].second : dp[pos].first;
+		
+		if (memo != -1)
+			return memo;
+	}
 
-	mem[r][b][turn_col] = !turn;
-	for (const auto tgt: adj[color ? b : r])
-		if (search(adj, mem, color ? r : tgt, color ? tgt : b, !turn, turn ? color : !color, n) == turn)
-		{
-			mem[r][b][turn_col] = turn;
-			break;
-		}
+	int res = minimize ? std::numeric_limits<int>::max() : std::numeric_limits<int>::min();
+	for (const auto tgt: adj[pos])
+		if (minimize)
+			res = std::min(res, 1 + search(adj, dp, tgt, false));
+		else
+			res = std::max(res, 1 + search(adj, dp, tgt, true));
+	
+	if (minimize) {
+		dp[pos].second = res;
+	} else {
+		dp[pos].first = res;
+	}
 
-	return mem[r][b][turn_col];
+	return res;
 }
 
 void testcase() {
 	int n, m, r, b; std::cin >> n >> m >> r >> b;
-	ADJ_LIST adj(n + 1, std::vector<int>());
-	MEMO mem(n + 1);
-	for (auto &vec : mem) {
-		vec.resize(n + 1);
-		std::fill(vec.begin(), vec.end(), std::array<int, 4>({-1, -1, -1, -1}));
-	}
+	ADJ adj(n + 1, std::vector<int>());
+	DP dp(n + 1, std::pair<int,int>(-1, -1));
 
 	for (int i = 0; i < m; i++) {
 		int u, v; std::cin >> u >> v; 
 		adj[u].push_back(v);
 	}
-	std::cout << search(adj, mem, r, b, 0, 0, n) << std::endl;
+
+	int red = search(adj, dp, r, true);
+	int black = search(adj, dp, b, true);
+
+	std::cout << (((red < black) || (red == black && red % 2 != 0)) ? '0' : '1') << std::endl;
 }
 
 int main() {
