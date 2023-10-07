@@ -3,55 +3,45 @@
 #include <iomanip>
 #include <string>
 #include <cmath>
+#include <cstring>
 #include <algorithm>
 #include <vector>
 
-typedef std::vector<std::vector<std::pair<int, int>>> MEMO;
+typedef std::vector<std::vector<int>> MEMO;
+MEMO memo(2001, std::vector<int>(2001, -1));
+std::vector<int> v(2001, 0);
 
-std::pair<int, int> search(
-	MEMO& memo,
-	std::vector<int> &v,
-	const int i,
-	const int j,
-	const int p,
-	const int m,
-	const int k
-) {
-    if (i == j)
-		return std::make_pair(0, 0);
-	
-	if (memo[i][j].first != -1)
+int search(const int i, const int j, const int p, const int m, const int k) {
+	if (i == j)
+		return p == k ? v[i] : 0;
+	else if (memo[i][j] != -1)
 		return memo[i][j];
 
-	int next = (p + 1 == m) ? 0 : p + 1;
-	auto pick_start = search(memo, v, i + 1, j, next, m, k);
-	int start_val = v[i] + (p != k ? pick_start.second : pick_start.first);
+	int next = (p + 1) % m;
+	int rest_first = search(i + 1, j, next, m, k), rest_end = search(i, j - 1, next, m, k);
 
-	auto pick_end = search(memo, v, i, j - 1, next, m, k);
-	int end_val = v[j - 1] + (p != k ? pick_end.second : pick_end.first);
-
-	if (start_val > end_val)
-		memo[i][j] = std::make_pair(p != k ? pick_start.first : start_val, p != k ? start_val : pick_start.second);
+	if (p == k)
+		return memo[i][j] = std::max(v[i] + rest_first, v[j] + rest_end);
 	else
-		memo[i][j] = std::make_pair(p != k ? pick_end.first : end_val, p != k ? end_val : pick_end.second);
-
-	return memo[i][j];
+		return memo[i][j] = std::min(rest_first, rest_end);
 }
 
 
 void testcase() {
 	int n, m, k; std::cin >> n >> m >> k;
-	std::vector<int> v(n);
+	std::fill(v.begin(), v.end(), 0);
+	for (auto &m: memo)
+		std::fill(m.begin(), m.end(), -1);
 
-	for (auto& i: v)
-		std::cin >> i;
+	for (int i = 0; i < n; ++i)
+		std::cin >> v[i];
 	
-	MEMO memo(n + 1, std::vector<std::pair<int, int>>(n + 1, std::make_pair(-1, -1)));
-	std::cout << search(memo, v, 0, n, 0, m, k).first << std::endl;
+	std::cout << search(0, n - 1, 0, m, k) << std::endl;
 }
 
 int main() {
 	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
 
 	int t;
 	std::cin >> t;
