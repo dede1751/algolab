@@ -19,7 +19,8 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [The Great Game](Week2/TheGreatGame/this.pdf)              | [the_great_game.cpp](Week2/TheGreatGame/src/algorithm.cpp)                      | 100       | Week 2    | Minimax + DP             |
 | [Lord Voldemort](Week2/LordVoldemort/this.pdf)             | [lord_voldemort.cpp](Week2/LordVoldemort/src/algorithm.cpp)                     | 100       | Week 2    | DP + Precompute          |
 | [JamesBondSovereigns](Week3/JamesBondSovereigns/this.pdf)  | [james_bond_sovereigns.cpp](Week3/JamesBondSovereigns/src/algorithm.cpp)        |  75       | POTW 3    | DP                       |
-| [FirstStepsBGL](Week3/FirstStepsBGL/this.pdf)              | [first_steps_bgl.cpp](Week3/FirstStepsBGL/src/algorithm.cpp)                    | 100       | Week 3    | Dijkstra/MST             |
+| [FirstStepsBGL](Week3/FirstStepsBGL/this.pdf)              | [first_steps_bgl.cpp](Week3/FirstStepsBGL/src/algorithm.cpp)                    | 100       | Week 3    | Dijkstra + MST           |
 | [BuddySelection](Week3/BuddySelection/this.pdf)            | [buddy_selection.cpp](Week3/BuddySelection/src/algorithm.cpp)                   | 100       | Week 3    | Maximum Matching         |
 | [ImportantBridges](Week3/ImportantBridges/this.pdf)        | [important_bridges.cpp](Week3/ImportantBridges/src/algorithm.cpp)               | 100       | Week 3    | Biconnected Components   |
-| [AntChallenge](Week3/AntChallenge/this.pdf)                | [ant_challenge.cpp](Week3/AntChallenge/src/algorithm.cpp)                       | 100       | Week 3    | Dijkstra/Prim MST        |
+| [AntChallenge](Week3/AntChallenge/this.pdf)                | [ant_challenge.cpp](Week3/AntChallenge/src/algorithm.cpp)                       | 100       | Week 3    | Dijkstra + Prim MST      |
+| [IronIslands](Week4/IronIslands/this.pdf)                  | [iron_islands.cpp](Week4/IronIslands/src/algorithm.cpp)                         | 100       | POTW 4    | SW                       |
