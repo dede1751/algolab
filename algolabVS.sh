@@ -164,7 +164,7 @@ EOF
 # Config files for VS code
 #-------------------------------------------------------------------------------
 
-algolabVS_script="~/Documents/algolab/algolabVS.sh"
+algolabVS_script="~/Documents/ethz/algolab/algolabVS.sh"
 TASKS=$(cat <<EOF
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
