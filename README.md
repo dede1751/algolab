@@ -25,6 +25,6 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [AntChallenge](Week3/AntChallenge/this.pdf)                | [ant_challenge.cpp](Week3/AntChallenge/src/algorithm.cpp)                       | 100       | Week 3    | Dijkstra + Prim MST      |
 | [IronIslands](Week4/IronIslands/this.pdf)                  | [iron_islands.cpp](Week4/IronIslands/src/algorithm.cpp)                         | 100       | POTW 4    | SW                       |
 | [Hit](Week4/Hit/this.pdf)                                  | [hit.cpp](Week4/Hit/src/algorithm.cpp)                                          | 100       | Week 4    | CGAL do_intersect        |
-| [FirstHit](Week4/FirstHit/this.pdf)                        | [first_hit.cpp](Week4/FirstHit/src/algorithm.cpp)                               |           | Week 4    |                          |
+| [FirstHit](Week4/FirstHit/this.pdf)                        | [first_hit.cpp](Week4/FirstHit/src/algorithm.cpp)                               | 100       | Week 4    | "Smarter" Hit            |
 | [Antenna](Week4/Antenna/this.pdf)                          | [antenna.cpp](Week4/Antenna/src/algorithm.cpp)                                  |           | Week 4    |                          |
 | [HikingMaps](Week4/HikingMaps/this.pdf)                    | [hiking_maps.cpp](Week4/HikingMaps/src/algorithm.cpp)                           |           | Week 4    |                          |
