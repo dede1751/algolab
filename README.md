@@ -30,6 +30,6 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [HikingMaps](Week4/HikingMaps/this.pdf)                    | [hiking_maps.cpp](Week4/HikingMaps/src/algorithm.cpp)                           | 100       | Week 4    | Orientations             |
 | [PlanetExpress](Week5/PlanetExpress/this.pdf)              | [planet_express.cpp](Week5/PlanetExpress/src/algorithm.cpp)                     | 100       | POTW 5    | SCC + Dijkstra           |
 | [MovingBooks](Week5/MovingBooks/this.pdf)                  | [moving_books.cpp](Week5/MovingBooks/src/algorithm.cpp)                         | 100       | Week 5    | Greedy                   |
-| [AsterixTheGaul](Week5/AsterixTheGaul/this.pdf)            | [asterix_the_gaul.cpp](Week5/AsterixTheGaul/src/algorithm.cpp)                  |           | Week 5    |                          |
+| [AsterixTheGaul](Week5/AsterixTheGaul/this.pdf)            | [asterix_the_gaul.cpp](Week5/AsterixTheGaul/src/algorithm.cpp)                  | 100       | Week 5    | Split&List + BS          |
 | [SeverusSnape](Week5/SeverusSnape/this.pdf)                | [severus_snape.cpp](Week5/SeverusSnape/src/algorithm.cpp)                       |           | Week 5    |                          |
 | [Boats](Week5/Boats/this.pdf)                              | [boats.cpp](Week5/Boats/src/algorithm.cpp)                                      |           | Week 5    |                          |
