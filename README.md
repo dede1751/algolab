@@ -33,3 +33,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [AsterixTheGaul](Week5/AsterixTheGaul/this.pdf)            | [asterix_the_gaul.cpp](Week5/AsterixTheGaul/src/algorithm.cpp)                  | 100       | Week 5    | Split&List + BS          |
 | [SeverusSnape](Week5/SeverusSnape/this.pdf)                | [severus_snape.cpp](Week5/SeverusSnape/src/algorithm.cpp)                       |           | Week 5    |                          |
 | [Boats](Week5/Boats/this.pdf)                              | [boats.cpp](Week5/Boats/src/algorithm.cpp)                                      | 100       | Week 5    | Greedy                   |
+| [Motorcycles](Week6/Motorcycles/this.pdf)                  | [motorcycles.cpp](Week6/Motorcycles/src/algorithm.cpp)                          |           | POTW 6    |                          |
