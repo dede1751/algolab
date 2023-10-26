@@ -36,5 +36,5 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Motorcycles](Week6/Motorcycles/this.pdf)                      | [motorcycles.cpp](Week6/Motorcycles/src/algorithm.cpp)                          | 100       | POTW 6    | CGAL geometry            |
 | [Tiles](Week6/Tiles/this.pdf)                                  | [tiles.cpp](Week6/Tiles/src/algorithm.cpp)                                      | 100       | Week 6    | MaxFlow                  |
 | [London](Week6/London/this.pdf)                                | [london.cpp](Week6/London/src/algorithm.cpp)                                    | 100       | Week 6    | MaxFlow                  |
-| [CoinTossingTournament](Week6/CoinTossingTournament/this.pdf)  | [coin_tossing_tournament.cpp](Week6/CoinTossingTournament/src/algorithm.cpp)    |           | Week 6    |                          |
+| [CoinTossingTournament](Week6/CoinTossingTournament/this.pdf)  | [coin_tossing_tournament.cpp](Week6/CoinTossingTournament/src/algorithm.cpp)    | 100       | Week 6    | MaxFlow                  |
 | [Knights](Week6/Knights/this.pdf)                              | [knights.cpp](Week6/Knights/src/algorithm.cpp)                                  |           | Week 6    |                          |
