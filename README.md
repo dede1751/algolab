@@ -38,3 +38,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [London](Week6/London/this.pdf)                                | [london.cpp](Week6/London/src/algorithm.cpp)                                    | 100       | Week 6    | MaxFlow                  |
 | [CoinTossingTournament](Week6/CoinTossingTournament/this.pdf)  | [coin_tossing_tournament.cpp](Week6/CoinTossingTournament/src/algorithm.cpp)    | 100       | Week 6    | MaxFlow                  |
 | [Knights](Week6/Knights/this.pdf)                              | [knights.cpp](Week6/Knights/src/algorithm.cpp)                                  | 100       | Week 6    | MaxFlow                  |
+| [Octopussy](Week7/Octopussy/octopussy.pdf)                     | [octopussy.cpp](Week7/Octopussy/src/algorithm.cpp)                              | 100       | POTW 7    | Greedy + DFS             |
