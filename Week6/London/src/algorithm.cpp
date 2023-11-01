@@ -38,11 +38,13 @@ class edge_adder {
 	}
 };
 
+const int ALPHABET = 26;
+
 void testcase() {
 	int h, w; std::cin >> h >> w;
 	std::vector<std::vector<char>> front(h, std::vector<char>(w)), back(h, std::vector<char>(w));
-	int in_pairs[26][26] = {0};
-	int out_occs[26] = {0};
+	int in_pairs[ALPHABET][ALPHABET] = {0};
+	int out_occs[ALPHABET] = {0};
 
 	std::string line; std::cin >> line;
 	for (auto c: line)
@@ -66,18 +68,18 @@ void testcase() {
 			in_pairs[std::min(f, b)][std::max(f, b)]++;
 		}
 	
-	graph g(27*26 + 2);
+	graph g((ALPHABET + 1) * ALPHABET + 2);
 	edge_adder adder(g);
-	const int src = 27*26, dst = 27*26 + 1;
-	for (int f = 0; f < 26; f++)
-		for (int b = f; b < 26; b++) {
-			adder.add_edge(src, f * 26 + b, in_pairs[f][b]);
-			adder.add_edge(f * 26 + b, 26 * 26 + f, in_pairs[f][b]);
-			adder.add_edge(f * 26 + b, 26 * 26 + b, in_pairs[f][b]);
+	const int src = (ALPHABET + 1) * ALPHABET, dst = src + 1;
+	for (int f = 0; f < ALPHABET; f++)
+		for (int b = f; b < ALPHABET; b++) {
+			adder.add_edge(src, f * ALPHABET + b, in_pairs[f][b]);
+			adder.add_edge(f * ALPHABET + b, ALPHABET * ALPHABET + f, in_pairs[f][b]);
+			adder.add_edge(f * ALPHABET + b, ALPHABET * ALPHABET + b, in_pairs[f][b]);
 		}
 	
-	for (int i = 0; i < 26; i++)
-		adder.add_edge(26 * 26 + i, dst, out_occs[i]);
+	for (int i = 0; i < ALPHABET; i++)
+		adder.add_edge(ALPHABET * ALPHABET + i, dst, out_occs[i]);
 
 	long flow = boost::push_relabel_max_flow(g, src, dst);
 	std::cout << ((flow == (long)line.length()) ? "Yes" : "No") << std::endl;
