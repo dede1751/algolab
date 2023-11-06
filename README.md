@@ -39,7 +39,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [CoinTossingTournament](Week6/CoinTossingTournament/this.pdf)  | [coin_tossing_tournament.cpp](Week6/CoinTossingTournament/src/algorithm.cpp)    | 100       | Week 6    | MaxFlow                  |
 | [Knights](Week6/Knights/this.pdf)                              | [knights.cpp](Week6/Knights/src/algorithm.cpp)                                  | 100       | Week 6    | MaxFlow                  |
 | [Octopussy](Week7/Octopussy/octopussy.pdf)                     | [octopussy.cpp](Week7/Octopussy/src/algorithm.cpp)                              | 100       | POTW 7    | Greedy + DFS             |
-| [Bistro](Week7/Bistro/this.pdf)                                | [bistro.cpp](Week7/Bistro/src/algorithm.cpp)                                    | 100       | Week 7    | Delaunay/Voronoi Nearest |
-| [Germs](Week7/Germs/this.pdf)                                  | [germs.cpp](Week7/Germs/src/algorithm.cpp)                                      |           | Week 7    |                          |
+| [Bistro](Week7/Bistro/this.pdf)                                | [bistro.cpp](Week7/Bistro/src/algorithm.cpp)                                    | 100       | Week 7    | Delaunay Nearest         |
+| [Germs](Week7/Germs/this.pdf)                                  | [germs.cpp](Week7/Germs/src/algorithm.cpp)                                      | 100       | Week 7    | Delaunay Nearest Neighbor|
 | [H1N1](Week7/H1N1/this.pdf)                                    | [h1n1.cpp](Week7/H1N1/src/algorithm.cpp)                                        |           | Week 7    |                          |
 | [GoldenEye](Week7/GoldenEye/this.pdf)                          | [goldeneye.cpp](Week7/GoldenEye/src/algorithm.cpp)                              |           | Week 7    |                          |
