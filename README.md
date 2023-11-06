@@ -43,3 +43,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Germs](Week7/Germs/this.pdf)                                  | [germs.cpp](Week7/Germs/src/algorithm.cpp)                                      | 100       | Week 7    | Delaunay Nearest Neighbor|
 | [H1N1](Week7/H1N1/this.pdf)                                    | [h1n1.cpp](Week7/H1N1/src/algorithm.cpp)                                        |           | Week 7    |                          |
 | [GoldenEye](Week7/GoldenEye/this.pdf)                          | [goldeneye.cpp](Week7/GoldenEye/src/algorithm.cpp)                              |           | Week 7    |                          |
+| [KingdomDefence](Week8/KingdomDefence/kingdom_defence.pdf)     | [kingdom_defence.cpp](Week8/KingdomDefence/src/algorithm.cpp)                   | 100       | POTW 8    | Supply/Demand MaxFlow    |
