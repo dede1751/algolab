@@ -5,7 +5,7 @@
 #include <cmath>
 #include <algorithm>
 #include <vector>
-#include <map>
+#include <queue>
 
 #include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <CGAL/Delaunay_triangulation_2.h>
@@ -22,7 +22,7 @@ using FH = Triangulation::Face_handle;
 void testcase(int n) {
 	Triangulation t;
 	std::vector<P> points(n);
-	std::multimap<K::FT, FH> rim;
+	std::priority_queue<std::pair<K::FT, FH>> q;
 
 	for (int i = 0; i < n; i++) {
 		long x, y; std::cin >> x >> y;
@@ -39,28 +39,27 @@ void testcase(int n) {
 				auto edge_len = t.segment(f, i).squared_length();
 
 				f->info().second = std::max(f->info().second, edge_len);
-				rim.insert(std::make_pair(edge_len, f));
+				q.push(std::make_pair(edge_len, f));
 			}
 	}
 
-	while (!rim.empty()) {
-		auto curr = std::prev(rim.end());
+	while (!q.empty()) {
+		auto curr = q.top();
+		q.pop();
 
-		if (!curr->second->info().first) {
+		if (!curr.second->info().first) {
 			for (int i = 0; i < 3; i++) {
-				auto neighbor = curr->second->neighbor(i);
-				auto capacity = std::min(t.segment(curr->second, i).squared_length(), curr->second->info().second);
+				auto neighbor = curr.second->neighbor(i);
+				auto capacity = std::min(t.segment(curr.second, i).squared_length(), curr.second->info().second);
 
 				if (!t.is_infinite(neighbor) && !neighbor->info().first) {
 					neighbor->info().second = std::max(neighbor->info().second, capacity);
-					rim.insert(std::make_pair(neighbor->info().second, neighbor));
+					q.push(std::make_pair(neighbor->info().second, neighbor));
 				}
 			}
 
-			curr->second->info().first = true;
+			curr.second->info().first = true;
 		}
-
-		rim.erase(curr);
 	}
 
 	int m; std::cin >> m;
