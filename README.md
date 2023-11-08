@@ -42,5 +42,5 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Bistro](Week7/Bistro/this.pdf)                                | [bistro.cpp](Week7/Bistro/src/algorithm.cpp)                                    | 100       | Week 7    | Delaunay                 |
 | [Germs](Week7/Germs/this.pdf)                                  | [germs.cpp](Week7/Germs/src/algorithm.cpp)                                      | 100       | Week 7    | Delaunay                 |
 | [H1N1](Week7/H1N1/this.pdf)                                    | [h1n1.cpp](Week7/H1N1/src/algorithm.cpp)                                        | 100       | Week 7    | Delaunay + PrioQueue     |
-| [GoldenEye](Week7/GoldenEye/this.pdf)                          | [goldeneye.cpp](Week7/GoldenEye/src/algorithm.cpp)                              |           | Week 7    |                          |
+| [GoldenEye](Week7/GoldenEye/this.pdf)                          | [goldeneye.cpp](Week7/GoldenEye/src/algorithm.cpp)                              | 100       | Week 7    | Delaunay + UF (EMST-like)|
 | [KingdomDefence](Week8/KingdomDefence/kingdom_defence.pdf)     | [kingdom_defence.cpp](Week8/KingdomDefence/src/algorithm.cpp)                   | 100       | POTW 8    | Supply/Demand MaxFlow    |
