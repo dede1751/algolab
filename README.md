@@ -44,3 +44,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [H1N1](Week7/H1N1/this.pdf)                                    | [h1n1.cpp](Week7/H1N1/src/algorithm.cpp)                                        | 100       | Week 7    | Delaunay + PrioQueue     |
 | [GoldenEye](Week7/GoldenEye/this.pdf)                          | [goldeneye.cpp](Week7/GoldenEye/src/algorithm.cpp)                              | 100       | Week 7    | Delaunay + UF (EMST-like)|
 | [KingdomDefence](Week8/KingdomDefence/kingdom_defence.pdf)     | [kingdom_defence.cpp](Week8/KingdomDefence/src/algorithm.cpp)                   | 100       | POTW 8    | Supply/Demand MaxFlow    |
+| [WhatIsTheMaximum](Week8/WhatIsTheMaximum/this.pdf)            | [what_is_the_maximum.cpp](Week8/WhatIsTheMaximum/src/algorithm.cpp)             |           | Week 8    |                          |
+| [Suez](Week8/Suez/this.pdf)                                    | [suez.cpp](Week8/Suez/src/algorithm.cpp)                                        |           | Week 8    |                          |
+| [Inball](Week8/Inball/this.pdf)                                | [inball.cpp](Week8/Inball/src/algorithm.cpp)                                    |           | Week 8    |                          |
+| [Diet](Week8/Diet/this.pdf)                                    | [diet.cpp](Week8/Diet/src/algorithm.cpp)                                        |           | Week 8    |                          |
