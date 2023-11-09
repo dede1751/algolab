@@ -47,4 +47,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [WhatIsTheMaximum](Week8/WhatIsTheMaximum/this.pdf)            | [what_is_the_maximum.cpp](Week8/WhatIsTheMaximum/src/algorithm.cpp)             | 100       | Week 8    | CGAL LP                  |
 | [Suez](Week8/Suez/this.pdf)                                    | [suez.cpp](Week8/Suez/src/algorithm.cpp)                                        |           | Week 8    |                          |
 | [Inball](Week8/Inball/this.pdf)                                | [inball.cpp](Week8/Inball/src/algorithm.cpp)                                    |           | Week 8    |                          |
-| [Diet](Week8/Diet/this.pdf)                                    | [diet.cpp](Week8/Diet/src/algorithm.cpp)                                        |           | Week 8    |                          |
+| [Diet](Week8/Diet/this.pdf)                                    | [diet.cpp](Week8/Diet/src/algorithm.cpp)                                        | 100       | Week 8    | CGAL LP                  |
