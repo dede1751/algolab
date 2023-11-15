@@ -48,4 +48,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Suez](Week8/Suez/this.pdf)                                    | [suez.cpp](Week8/Suez/src/algorithm.cpp)                                        | 100       | Week 8    | CGAL LP                  |
 | [Inball](Week8/Inball/this.pdf)                                | [inball.cpp](Week8/Inball/src/algorithm.cpp)                                    | 100       | Week 8    | CGAL LP + LinAlg         |
 | [Diet](Week8/Diet/this.pdf)                                    | [diet.cpp](Week8/Diet/src/algorithm.cpp)                                        | 100       | Week 8    | CGAL LP                  |
-| [Idefix](Week9/Idefix/this.pdf)                                | [idefix.cpp](Week9/Idefix/src/algorithm.cpp)                                    |           | POTW 9    |                          |
+| [Idefix](Week9/Idefix/this.pdf)                                | [idefix.cpp](Week9/Idefix/src/algorithm.cpp)                                    | 100       | POTW 9    | Delaunay + UF + BS       |
