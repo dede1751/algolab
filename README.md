@@ -49,7 +49,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Inball](Week8/Inball/this.pdf)                                | [inball.cpp](Week8/Inball/src/algorithm.cpp)                                    | 100       | Week 8    | CGAL LP + LinAlg         |
 | [Diet](Week8/Diet/this.pdf)                                    | [diet.cpp](Week8/Diet/src/algorithm.cpp)                                        | 100       | Week 8    | CGAL LP                  |
 | [Idefix](Week9/Idefix/this.pdf)                                | [idefix.cpp](Week9/Idefix/src/algorithm.cpp)                                    | 100       | POTW 9    | Delaunay + UF + BS       |
-| [Canteen](Week9/Canteen/this.pdf)                              | [canteen.cpp](Week9/Canteen/src/algorithm.cpp)                                  |           | Week 9    |                          |
+| [Canteen](Week9/Canteen/this.pdf)                              | [canteen.cpp](Week9/Canteen/src/algorithm.cpp)                                  | 100       | Week 9    | MinCostMaxFlow           |
 | [PlacingKnights](Week9/PlacingKnights/this.pdf)                | [placing_knights.cpp](Week9/PlacingKnights/src/algorithm.cpp)                   |           | Week 9    |                          |
 | [RealEstateMarket](Week9/RealEstateMarket/this.pdf)            | [real_estate_market.cpp](Week9/RealEstateMarket/src/algorithm.cpp)              |           | Week 9    |                          |
 | [Algocoon](Week9/Algocoon/this.pdf)                            | [algocoon.cpp](Week9/Algocoon/src/algorithm.cpp)                                |           | Week 9    |                          |
