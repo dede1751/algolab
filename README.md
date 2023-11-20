@@ -53,3 +53,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [PlacingKnights](Week9/PlacingKnights/this.pdf)                | [placing_knights.cpp](Week9/PlacingKnights/src/algorithm.cpp)                   | 100       | Week 9    | Bipartite MaxIS          |
 | [RealEstateMarket](Week9/RealEstateMarket/this.pdf)            | [real_estate_market.cpp](Week9/RealEstateMarket/src/algorithm.cpp)              | 100       | Week 9    | MinCostMaxFlow           |
 | [Algocoon](Week9/Algocoon/this.pdf)                            | [algocoon.cpp](Week9/Algocoon/src/algorithm.cpp)                                | 100       | Week 9    | MinCut                   |
+| [Lannister](Week10/Lannister/this.pdf)                          | [lannister.cpp](Week10/Lannister/src/algorithm.cpp)                            | 100       | POTW 10   | CGAL LP                  |
