@@ -55,6 +55,6 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Algocoon](Week9/Algocoon/this.pdf)                              | [algocoon.cpp](Week9/Algocoon/src/algorithm.cpp)                                | 100       | Week 9    | MinCut                   |
 | [Lannister](Week10/Lannister/this.pdf)                           | [lannister.cpp](Week10/Lannister/src/algorithm.cpp)                             | 100       | POTW 10   | CGAL LP                  |
 | [SanFrancisco](Week10/SanFrancisco/this.pdf)                     | [san_francisco.cpp](Week10/SanFrancisco/src/algorithm.cpp)                      | 100       | Week 10   | DP                       |
-| [RubeusHagrid](Week10/RubeusHagrid/this.pdf)                     | [rubeus_hagrid.cpp](Week10/RubeusHagrid/src/algorithm.cpp)                      |           | Week 10   |                          |
+| [RubeusHagrid](Week10/RubeusHagrid/this.pdf)                     | [rubeus_hagrid.cpp](Week10/RubeusHagrid/src/algorithm.cpp)                      | 100       | Week 10   | Greedily Sorted DFS      |
 | [SurveillancePhotograph](Week10/SurveillancePhotograph/this.pdf) | [surveillance_photograph.cpp](Week10/SurveillancePhotograph/src/algorithm.cpp)  | 100       | Week 10   | MaxFlow                  |
 | [Clues](Week10/Clues/this.pdf)                                   | [clues.cpp](Week10/Clues/src/algorithm.cpp)                                     |           | Week 10   |                          |
