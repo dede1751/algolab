@@ -58,3 +58,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [RubeusHagrid](Week10/RubeusHagrid/this.pdf)                     | [rubeus_hagrid.cpp](Week10/RubeusHagrid/src/algorithm.cpp)                      | 100       | Week 10   | Greedily Sorted DFS      |
 | [SurveillancePhotograph](Week10/SurveillancePhotograph/this.pdf) | [surveillance_photograph.cpp](Week10/SurveillancePhotograph/src/algorithm.cpp)  | 100       | Week 10   | MaxFlow                  |
 | [Clues](Week10/Clues/this.pdf)                                   | [clues.cpp](Week10/Clues/src/algorithm.cpp)                                     |           | Week 10   |                          |
+| [India](Week11/India/this.pdf)                                   | [india.cpp](Week11/India/src/algorithm.cpp)                                     |           | POTW 11   |                          |
