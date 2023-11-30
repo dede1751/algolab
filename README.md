@@ -61,5 +61,5 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [India](Week11/India/this.pdf)                                   | [india.cpp](Week11/India/src/algorithm.cpp)                                     | 100       | POTW 11   | MinCostMaxFlow + BS      |
 | [AsterixChariotRace](Week11/AsterixChariotRace/this.pdf)         | [asterix_chariot_race.cpp](Week11/AsterixChariotRace/src/algorithm.cpp)         |           | Week 11   |                          |
 | [DeanThomas](Week11/DeanThomas/this.pdf)                         | [dean_thomas.cpp](Week11/DeanThomas/src/algorithm.cpp)                          |           | Week 11   |                          |
-| [Legions](Week11/Legions/this.pdf)                               | [legions.cpp](Week11/Legions/src/algorithm.cpp)                                 |           | Week 11   |                          |
+| [Legions](Week11/Legions/this.pdf)                               | [legions.cpp](Week11/Legions/src/algorithm.cpp)                                 | 100       | Week 11   | CGAL LP + LinAlg         |
 | [PhantomMenace](Week11/PhantomMenace/this.pdf)                   | [phantom_menace.cpp](Week11/PhantomMenace/src/algorithm.cpp)                    | 100       | Week 11   | MinimumCut               |
