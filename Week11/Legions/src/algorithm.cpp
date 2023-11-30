@@ -31,12 +31,8 @@ void testcase() {
 
 		lp.set_a(X, i, -a * sign);
 		lp.set_a(Y, i, -b * sign);
+		lp.set_a(T, i, norm * v);
 		lp.set_b(i, c * sign);
-
-		lp.set_a(X, n + i, -a * sign);
-		lp.set_a(Y, n + i, -b * sign);
-		lp.set_a(T, n + i, norm * v);
-		lp.set_b(n + i, c * sign);
 	}
 
   	Solution s = CGAL::solve_linear_program(lp, ET());
