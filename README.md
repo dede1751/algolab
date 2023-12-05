@@ -63,3 +63,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [DeanThomas](Week11/DeanThomas/this.pdf)                         | [dean_thomas.cpp](Week11/DeanThomas/src/algorithm.cpp)                          |           | Week 11   |                          |
 | [Legions](Week11/Legions/this.pdf)                               | [legions.cpp](Week11/Legions/src/algorithm.cpp)                                 | 100       | Week 11   | CGAL LP + LinAlg         |
 | [PhantomMenace](Week11/PhantomMenace/this.pdf)                   | [phantom_menace.cpp](Week11/PhantomMenace/src/algorithm.cpp)                    | 100       | Week 11   | MinimumCut               |
+| [PiedPiper](Week12/PiedPiper/this.pdf)                           | [pied_piper.cpp](Week12/PiedPiper/src/algorithm.cpp)                            |           | POTW 12   |                          |
