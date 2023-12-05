@@ -57,7 +57,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [SanFrancisco](Week10/SanFrancisco/this.pdf)                     | [san_francisco.cpp](Week10/SanFrancisco/src/algorithm.cpp)                      | 100       | Week 10   | DP                       |
 | [RubeusHagrid](Week10/RubeusHagrid/this.pdf)                     | [rubeus_hagrid.cpp](Week10/RubeusHagrid/src/algorithm.cpp)                      | 100       | Week 10   | Greedily Sorted DFS      |
 | [SurveillancePhotograph](Week10/SurveillancePhotograph/this.pdf) | [surveillance_photograph.cpp](Week10/SurveillancePhotograph/src/algorithm.cpp)  | 100       | Week 10   | MaxFlow                  |
-| [Clues](Week10/Clues/this.pdf)                                   | [clues.cpp](Week10/Clues/src/algorithm.cpp)                                     |           | Week 10   |                          |
+| [Clues](Week10/Clues/this.pdf)                                   | [clues.cpp](Week10/Clues/src/algorithm.cpp)                                     | 100       | Week 10   | CC + Bipartite           |
 | [India](Week11/India/this.pdf)                                   | [india.cpp](Week11/India/src/algorithm.cpp)                                     | 100       | POTW 11   | MinCostMaxFlow + BS      |
 | [AsterixChariotRace](Week11/AsterixChariotRace/this.pdf)         | [asterix_chariot_race.cpp](Week11/AsterixChariotRace/src/algorithm.cpp)         | 100       | Week 11   | DP                       |
 | [DeanThomas](Week11/DeanThomas/this.pdf)                         | [dean_thomas.cpp](Week11/DeanThomas/src/algorithm.cpp)                          |           | Week 11   |                          |
