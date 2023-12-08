@@ -64,7 +64,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Legions](Week11/Legions/this.pdf)                                | [legions.cpp](Week11/Legions/src/algorithm.cpp)                                  | 100       | Week 11   | CGAL LP + LinAlg         |
 | [PhantomMenace](Week11/PhantomMenace/this.pdf)                    | [phantom_menace.cpp](Week11/PhantomMenace/src/algorithm.cpp)                     | 100       | Week 11   | MinimumCut               |
 | [PiedPiper](Week12/PiedPiper/this.pdf)                            | [pied_piper.cpp](Week12/PiedPiper/src/algorithm.cpp)                             |           | POTW 12   |                          |
-| [NewYork](Week12/NewYork/this.pdf)                                | [new_york.cpp](Week12/NewYork/src/algorithm.cpp)                                 |           | Week 12   |                          |
+| [NewYork](Week12/NewYork/this.pdf)                                | [new_york.cpp](Week12/NewYork/src/algorithm.cpp)                                 | 100       | Week 12   | SW + PrioQ               |
 | [ReturnOfTheJedi](Week12/ReturnOfTheJedi/this.pdf)                | [return_of_the_jedi.cpp](Week12/ReturnOfTheJedi/src/algorithm.cpp)               |           | Week 12   |                          |
 | [Rumpelstitskin](Week12/Rumpelstitskin/this.pdf)                  | [rumpelstitskin.cpp](Week12/Rumpelstitskin/src/algorithm.cpp)                    |           | Week 12   |                          |
 | [WorldCup](Week12/WorldCup/this.pdf)                              | [world_cup.cpp](Week12/WorldCup/src/algorithm.cpp)                               |           | Week 12   |                          |
