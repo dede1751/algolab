@@ -66,7 +66,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [PiedPiper](Week12/PiedPiper/this.pdf)                                 | [pied_piper.cpp](Week12/PiedPiper/src/algorithm.cpp)                                    | POTW 12   |                          |
 | [NewYork](Week12/NewYork/this.pdf)                                     | [new_york.cpp](Week12/NewYork/src/algorithm.cpp)                                        | Week 12   | SW + PrioQ               |
 | [ReturnOfTheJedi](Week12/ReturnOfTheJedi/this.pdf)                     | [return_of_the_jedi.cpp](Week12/ReturnOfTheJedi/src/algorithm.cpp)                      | Week 12   | 2nd-best MST             |
-| [Rumpelstitskin](Week12/Rumpelstitskin/this.pdf)                       | [rumpelstitskin.cpp](Week12/Rumpelstitskin/src/algorithm.cpp)                           | Week 12   |                          |
+| [Rumpelstitskin](Week12/Rumpelstitskin/this.pdf)                       | [rumpelstitskin.cpp](Week12/Rumpelstitskin/src/algorithm.cpp)                           | Week 12   | Max Weighted Matching    |
 | [WorldCup](Week12/WorldCup/this.pdf)                                   | [world_cup.cpp](Week12/WorldCup/src/algorithm.cpp)                                      | Week 12   | CGAL LP + Delaunay       |
 | [Schneewittchen](Week13/Schneewittchen/this.pdf)                       | [schneewittchen.cpp](Week13/Schneewittchen/src/algorithm.cpp)                           | POTW 13   | CGAL LP + DFS            |
 | [AugeanStables](Week13/AugeanStables/this.pdf)                         | [augean_stables.cpp](Week13/AugeanStables/src/algorithm.cpp)                            | Week 13   |                          |
