@@ -73,4 +73,4 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [CasinoRoyale](Week13/CasinoRoyale/this.pdf)                           | [casino_royale.cpp](Week13/CasinoRoyale/src/algorithm.cpp)                              | Week 13   |                          |
 | [DHL](Week13/DHL/this.pdf)                                             | [dhl.cpp](Week13/DHL/src/algorithm.cpp)                                                 | Week 13   |                          |
 | [FightingPitsOfMeeren](Week13/FightingPitsOfMeeren/this.pdf)           | [fighting_pits_of_meeren.cpp](Week13/FightingPitsOfMeeren/src/algorithm.cpp)            | Week 13   |                          |
-| [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   |                          |
+| [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   | Dijkstra + BS + MaxFlow  |
