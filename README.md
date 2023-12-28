@@ -70,7 +70,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [WorldCup](Week12/WorldCup/this.pdf)                                   | [world_cup.cpp](Week12/WorldCup/src/algorithm.cpp)                                      | Week 12   | CGAL LP + Delaunay       |
 | [Schneewittchen](Week13/Schneewittchen/this.pdf)                       | [schneewittchen.cpp](Week13/Schneewittchen/src/algorithm.cpp)                           | POTW 13   | CGAL LP + DFS            |
 | [AugeanStables](Week13/AugeanStables/this.pdf)                         | [augean_stables.cpp](Week13/AugeanStables/src/algorithm.cpp)                            | Week 13   | BS + LP (85/100)         |
-| [CasinoRoyale](Week13/CasinoRoyale/this.pdf)                           | [casino_royale.cpp](Week13/CasinoRoyale/src/algorithm.cpp)                              | Week 13   |                          |
+| [CasinoRoyale](Week13/CasinoRoyale/this.pdf)                           | [casino_royale.cpp](Week13/CasinoRoyale/src/algorithm.cpp)                              | Week 13   | MinCostMaxFlow           |
 | [DHL](Week13/DHL/this.pdf)                                             | [dhl.cpp](Week13/DHL/src/algorithm.cpp)                                                 | Week 13   |                          |
 | [FightingPitsOfMeeren](Week13/FightingPitsOfMeeren/this.pdf)           | [fighting_pits_of_meeren.cpp](Week13/FightingPitsOfMeeren/src/algorithm.cpp)            | Week 13   |                          |
 | [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   | Dijkstra + BS + MaxFlow  |
