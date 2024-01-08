@@ -74,3 +74,9 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [DHL](Week13/DHL/this.pdf)                                             | [dhl.cpp](Week13/DHL/src/algorithm.cpp)                                                 | Week 13   |                          |
 | [FightingPitsOfMeeren](Week13/FightingPitsOfMeeren/this.pdf)           | [fighting_pits_of_meeren.cpp](Week13/FightingPitsOfMeeren/src/algorithm.cpp)            | Week 13   |                          |
 | [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   | Dijkstra + BS + MaxFlow  |
+
+## 2022
+
+| Problem                                                                | Solution                                                                                | Type                     | 
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------ |
+| [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)       | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)        |                          |
