@@ -80,6 +80,21 @@ This is a collection of problems for the previous years I used to prepare for th
 
 ### 2022
 
-| Problem                                                                | Solution                                                                                | Type                     | 
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------ |
-| [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)       | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)        |                          |
+| Problem                                                                     | Solution                                                                                    | Type                     | 
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------ |
+| [AsterixInSwitzerland](PreviousYears/2022/AsterixInSwitzerland/this.pdf)    | [asterix_in_switzerland.cpp](PreviousYears/2022/AsterixInSwitzerland/src/algorithm.cpp)     |                          |
+| [CarSharing](PreviousYears/2022/CarSharing/this.pdf)                        | [car_sharing.cpp](PreviousYears/2022/CarSharing/src/algorithm.cpp)                          |                          |
+| [CeryneianHind](PreviousYears/2022/CeryneianHind/this.pdf)                  | [ceryneian_hind.cpp](PreviousYears/2022/CeryneianHind/src/algorithm.cpp)                    |                          |
+| [EmpireStrikesBack](PreviousYears/2022/EmpireStrikesBack/this.pdf)          | [empire_strikes_back.cpp](PreviousYears/2022/EmpireStrikesBack/src/algorithm.cpp)           |                          |
+| [Evolution](PreviousYears/2022/Evolution/this.pdf)                          | [evolution.cpp](PreviousYears/2022/Evolution/src/algorithm.cpp)                             |                          |
+| [FleetRace](PreviousYears/2022/FleetRace/this.pdf)                          | [fleet_race.cpp](PreviousYears/2022/FleetRace/src/algorithm.cpp)                            |                          |
+| [LightTheStage](PreviousYears/2022/LightTheStage/this.pdf)                  | [light_the_stage.cpp](PreviousYears/2022/LightTheStage/src/algorithm.cpp)                   |                          |
+| [LudoBagman](PreviousYears/2022/LudoBagman/this.pdf)                        | [ludo_bagman.cpp](PreviousYears/2022/LudoBagman/src/algorithm.cpp)                          |                          |
+| [Marathon](PreviousYears/2022/Marathon/this.pdf)                            | [marathon.cpp](PreviousYears/2022/Marathon/src/algorithm.cpp)                               |                          |
+| [NewTiles](PreviousYears/2022/NewTiles/this.pdf)                            | [new_tiles.cpp](PreviousYears/2022/NewTiles/src/algorithm.cpp)                              |                          |
+| [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
+| [SearchSnippets](PreviousYears/2022/SearchSnippets/this.pdf)                | [search_snippets.cpp](PreviousYears/2022/SearchSnippets/src/algorithm.cpp)                  |                          |
+| [ShoppingTrip](PreviousYears/2022/ShoppingTrip/this.pdf)                    | [shopping_trip.cpp](PreviousYears/2022/ShoppingTrip/src/algorithm.cpp)                      |                          |
+| [TheHandTourney](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
+| [TheNemeanLion](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
+| [Tracking](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
