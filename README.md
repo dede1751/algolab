@@ -43,7 +43,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Germs](Week07/Germs/this.pdf)                                         | [germs.cpp](Week07/Germs/src/algorithm.cpp)                                             | Week 7    | Delaunay                 |
 | [H1N1](Week07/H1N1/this.pdf)                                           | [h1n1.cpp](Week07/H1N1/src/algorithm.cpp)                                               | Week 7    | Delaunay + PrioQueue     |
 | [GoldenEye](Week07/GoldenEye/this.pdf)                                 | [goldeneye.cpp](Week07/GoldenEye/src/algorithm.cpp)                                     | Week 7    | Delaunay + UF (EMST-like)|
-| [KingdomDefence](Week08/KingdomDefence/kingdom_defence.pdf)            | [kingdom_defence.cpp](Week08/KingdomDefence/src/algorithm.cpp)                          | POTW 8    | Supply/Demand MaxFlow    |
+| [KingdomDefence](Week08/KingdomDefence/this.pdf)            | [kingdom_defence.cpp](Week08/KingdomDefence/src/algorithm.cpp)                          | POTW 8    | Supply/Demand MaxFlow    |
 | [WhatIsTheMaximum](Week08/WhatIsTheMaximum/this.pdf)                   | [what_is_the_maximum.cpp](Week08/WhatIsTheMaximum/src/algorithm.cpp)                    | Week 8    | CGAL LP                  |
 | [Suez](Week08/Suez/this.pdf)                                           | [suez.cpp](Week08/Suez/src/algorithm.cpp)                                               | Week 8    | CGAL LP                  |
 | [Inball](Week08/Inball/this.pdf)                                       | [inball.cpp](Week08/Inball/src/algorithm.cpp)                                           | Week 8    | CGAL LP + LinAlg         |
@@ -85,7 +85,7 @@ This is a collection of problems for the previous years I used to prepare for th
 | [AsterixInSwitzerland](PreviousYears/2022/AsterixInSwitzerland/this.pdf)    | [asterix_in_switzerland.cpp](PreviousYears/2022/AsterixInSwitzerland/src/algorithm.cpp)     |                          |
 | [CarSharing](PreviousYears/2022/CarSharing/this.pdf)                        | [car_sharing.cpp](PreviousYears/2022/CarSharing/src/algorithm.cpp)                          |                          |
 | [CeryneianHind](PreviousYears/2022/CeryneianHind/this.pdf)                  | [ceryneian_hind.cpp](PreviousYears/2022/CeryneianHind/src/algorithm.cpp)                    |                          |
-| [EmpireStrikesBack](PreviousYears/2022/EmpireStrikesBack/this.pdf)          | [empire_strikes_back.cpp](PreviousYears/2022/EmpireStrikesBack/src/algorithm.cpp)           |                          |
+| [EmpireStrikesBack](PreviousYears/2022/EmpireStrikesBack/this.pdf)          | [empire_strikes_back.cpp](PreviousYears/2022/EmpireStrikesBack/src/algorithm.cpp)           | CGAL LP + Delaunay       |
 | [Evolution](PreviousYears/2022/Evolution/this.pdf)                          | [evolution.cpp](PreviousYears/2022/Evolution/src/algorithm.cpp)                             |                          |
 | [FleetRace](PreviousYears/2022/FleetRace/this.pdf)                          | [fleet_race.cpp](PreviousYears/2022/FleetRace/src/algorithm.cpp)                            |                          |
 | [LightTheStage](PreviousYears/2022/LightTheStage/this.pdf)                  | [light_the_stage.cpp](PreviousYears/2022/LightTheStage/src/algorithm.cpp)                   |                          |
