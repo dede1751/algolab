@@ -52,7 +52,7 @@ void testcase() {
 
 	for (int i = 0; i < n; i++) {
 		int a, c; std::cin >> a >> c;
-		adder.add_edge(src, i, a, c + 20);
+		adder.add_edge(src, i, a, c);
 	}
 
 	int total = 0;
@@ -75,7 +75,7 @@ void testcase() {
     for(boost::tie(e, eend) = boost::out_edges(boost::vertex(dst, g), g); e != eend; ++e)
         fed_students += rc_map[*e] - c_map[*e];  
 	
-	int revenue = 40 * fed_students - cost;
+	int revenue = 20 * fed_students - cost;
 	std::cout << ((fed_students == total) ? "possible " : "impossible ") << fed_students << " " << revenue<< std::endl;
 }
 
