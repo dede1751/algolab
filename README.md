@@ -95,6 +95,6 @@ This is a collection of problems for the previous years I used to prepare for th
 | [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
 | [SearchSnippets](PreviousYears/2022/SearchSnippets/this.pdf)                | [search_snippets.cpp](PreviousYears/2022/SearchSnippets/src/algorithm.cpp)                  |                          |
 | [ShoppingTrip](PreviousYears/2022/ShoppingTrip/this.pdf)                    | [shopping_trip.cpp](PreviousYears/2022/ShoppingTrip/src/algorithm.cpp)                      |                          |
-| [TheHandTourney](PreviousYears/2022/TheHandTourney/this.pdf)                | [the_hand_tourney.cpp](PreviousYears/2022/TheHandTourney/src/algorithm.cpp)                 |                          |
+| [TheHandTourney](PreviousYears/2022/TheHandTourney/this.pdf)                | [the_hand_tourney.cpp](PreviousYears/2022/TheHandTourney/src/algorithm.cpp)                 | BS + UF (hardcoded ifs)  |
 | [TheNemeanLion](PreviousYears/2022/TheNemeanLion/this.pdf)                  | [the_nemean_lion.cpp](PreviousYears/2022/TheNemeanLion/src/algorithm.cpp)                   |                          |
 | [Tracking](PreviousYears/2022/Tracking/this.pdf)                            | [tracking.cpp](PreviousYears/2022/Tracking/src/algorithm.cpp)                               |                          |
