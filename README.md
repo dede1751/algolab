@@ -92,7 +92,7 @@ This is a collection of problems for the previous years I used to prepare for th
 | [LudoBagman](PreviousYears/2022/LudoBagman/this.pdf)                        | [ludo_bagman.cpp](PreviousYears/2022/LudoBagman/src/algorithm.cpp)                          |                          |
 | [Marathon](PreviousYears/2022/Marathon/this.pdf)                            | [marathon.cpp](PreviousYears/2022/Marathon/src/algorithm.cpp)                               |                          |
 | [NewTiles](PreviousYears/2022/NewTiles/this.pdf)                            | [new_tiles.cpp](PreviousYears/2022/NewTiles/src/algorithm.cpp)                              |                          |
-| [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            |                          |
+| [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            | BS(really cool) + UF     |
 | [SearchSnippets](PreviousYears/2022/SearchSnippets/this.pdf)                | [search_snippets.cpp](PreviousYears/2022/SearchSnippets/src/algorithm.cpp)                  |                          |
 | [ShoppingTrip](PreviousYears/2022/ShoppingTrip/this.pdf)                    | [shopping_trip.cpp](PreviousYears/2022/ShoppingTrip/src/algorithm.cpp)                      |                          |
 | [TheHandTourney](PreviousYears/2022/TheHandTourney/this.pdf)                | [the_hand_tourney.cpp](PreviousYears/2022/TheHandTourney/src/algorithm.cpp)                 | BS + UF (hardcoded ifs)  |
