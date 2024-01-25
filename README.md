@@ -82,7 +82,7 @@ This is a collection of problems for the previous years I used to prepare for th
 
 | Problem                                                                     | Solution                                                                                    | Type                     | 
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------ |
-| [AsterixInSwitzerland](PreviousYears/2022/AsterixInSwitzerland/this.pdf)    | [asterix_in_switzerland.cpp](PreviousYears/2022/AsterixInSwitzerland/src/algorithm.cpp)     |                          |
+| [AsterixInSwitzerland](PreviousYears/2022/AsterixInSwitzerland/this.pdf)    | [asterix_in_switzerland.cpp](PreviousYears/2022/AsterixInSwitzerland/src/algorithm.cpp)     | MaxFlow                  |
 | [CarSharing](PreviousYears/2022/CarSharing/this.pdf)                        | [car_sharing.cpp](PreviousYears/2022/CarSharing/src/algorithm.cpp)                          |                          |
 | [CeryneianHind](PreviousYears/2022/CeryneianHind/this.pdf)                  | [ceryneian_hind.cpp](PreviousYears/2022/CeryneianHind/src/algorithm.cpp)                    |                          |
 | [EmpireStrikesBack](PreviousYears/2022/EmpireStrikesBack/this.pdf)          | [empire_strikes_back.cpp](PreviousYears/2022/EmpireStrikesBack/src/algorithm.cpp)           | CGAL LP + Delaunay       |
