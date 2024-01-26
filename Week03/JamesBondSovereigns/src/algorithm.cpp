@@ -7,45 +7,38 @@
 #include <algorithm>
 #include <vector>
 
-int memo[2001][2001];
-int v[2001];
-
-int search(const int i, const int j, const int p, const int m, const int k)
-{
-    if (i == j)
-        return p == k ? v[i] : 0;
-    else if (memo[i][j] != -1)
-        return memo[i][j];
-
-    int next = (p + 1) % m;
-    int rest_first = search(i + 1, j, next, m, k), rest_end = search(i, j - 1, next, m, k);
-
-    if (p == k)
-        return memo[i][j] = std::max(v[i] + rest_first, v[j] + rest_end);
-    else
-        return memo[i][j] = std::min(rest_first, rest_end);
-}
-
-
-void testcase()
-{
-    int n, m, k; std::cin >> n >> m >> k;
-    for (int i = 0; i <= n; i++)
-        memset(&memo[i], -1, n * sizeof(int));
-
-    for (int i = 0; i < n; ++i)
-        std::cin >> v[i];
+void testcase() {
+  int n, m, k; std::cin >> n >> m >> k;
+  std::vector<int> coins(n, 0);
+  std::vector<std::vector<int>> dp(n , std::vector<int>(n, 0));
+  
+  for (int i = 0; i < n; i++)
+    std::cin >> coins[i];
     
-    std::cout << search(0, n - 1, 0, m, k) << std::endl;
+  if ((n - 1) % m == k)
+    for (int i = 0; i < n; i++)
+        dp[i][i] = coins[i];
+  
+  for (int i = n - 2; i >= 0; i--) {
+    for (int j = i + 1; j < n; j++) {
+      int curr_player = (n + i - j - 1) % m;
+      
+      if (curr_player == k) 
+        dp[i][j] = std::max(coins[i] + dp[i + 1][j], coins[j] + dp[i][j - 1]);
+      else
+        dp[i][j] = std::min(dp[i + 1][j], dp[i][j - 1]);
+    }
+  }
+  
+  std::cout << dp[0][n - 1] << std::endl;
 }
 
-int main()
-{
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
+int main() {
+  std::ios_base::sync_with_stdio(false);
+  std::cin.tie(NULL);
 
-    int t;
-    std::cin >> t;
-    for (int i = 0; i < t; ++i)
-        testcase();
+  int t;
+  std::cin >> t;
+  for (int i = 0; i < t; ++i)
+    testcase();
 }
