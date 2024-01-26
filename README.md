@@ -87,7 +87,7 @@ This is a collection of problems for the previous years I used to prepare for th
 | [CeryneianHind](PreviousYears/2022/CeryneianHind/this.pdf)                  | [ceryneian_hind.cpp](PreviousYears/2022/CeryneianHind/src/algorithm.cpp)                    |                          |
 | [EmpireStrikesBack](PreviousYears/2022/EmpireStrikesBack/this.pdf)          | [empire_strikes_back.cpp](PreviousYears/2022/EmpireStrikesBack/src/algorithm.cpp)           | CGAL LP + Delaunay       |
 | [Evolution](PreviousYears/2022/Evolution/this.pdf)                          | [evolution.cpp](PreviousYears/2022/Evolution/src/algorithm.cpp)                             | BS                       |
-| [FleetRace](PreviousYears/2022/FleetRace/this.pdf)                          | [fleet_race.cpp](PreviousYears/2022/FleetRace/src/algorithm.cpp)                            |                          |
+| [FleetRace](PreviousYears/2022/FleetRace/this.pdf)                          | [fleet_race.cpp](PreviousYears/2022/FleetRace/src/algorithm.cpp)                            | MinCostMaxFlow           |
 | [LightTheStage](PreviousYears/2022/LightTheStage/this.pdf)                  | [light_the_stage.cpp](PreviousYears/2022/LightTheStage/src/algorithm.cpp)                   | BS + Delaunay            |
 | [LudoBagman](PreviousYears/2022/LudoBagman/this.pdf)                        | [ludo_bagman.cpp](PreviousYears/2022/LudoBagman/src/algorithm.cpp)                          |                          |
 | [Marathon](PreviousYears/2022/Marathon/this.pdf)                            | [marathon.cpp](PreviousYears/2022/Marathon/src/algorithm.cpp)                               | MultiPath Dijkstra + MF  |
