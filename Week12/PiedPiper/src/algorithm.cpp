@@ -5,73 +5,48 @@
 #include <cmath>
 #include <algorithm>
 #include <vector>
+#include <unordered_set>
 
 typedef std::vector<std::vector<std::pair<int,long>>> adjacency;
-typedef std::vector<int> memo;
-
-//adjacency adj;
-adjacency forward_adj;
-adjacency backward_adj;
-memo mem;
-//std::vector<bool> taken;
-
-long solve(const int fwd, const long rats) {
-	if (fwd == (int)forward_adj.size() - 1)
-		return rats;
-
-	long best = -1;
-	for (const auto& [fwd_tgt, fwd_r]: forward_adj[fwd]) {
-		
-		best = std::max(best, solve(fwd_tgt, rats + fwd_r));
-	}
-
-	return best;
-}
-
-// int solve(const int src, bool forward, const int rats) {
-// 	if (src == 0 && !forward)
-// 		return rats;
-// 	else if (src == (int)adj.size() - 1)
-// 		forward = false;
-
-// 	int best = -1;
-// 	for (const auto& [tgt, r]: adj[src]) {
-// 		if (forward && src < tgt) {
-// 			taken[tgt] = true;
-// 			int res = solve(tgt, forward, rats + r);
-// 			taken[tgt] = false;
-
-// 			best = std::max(best, res);
-// 		} else if (!forward && src > tgt && !taken[tgt]) {
-// 			int res = solve(tgt, forward, rats + r);
-// 			best = std::max(best, res);
-// 		}
-// 	}
-
-// 	return best;
-// }
+typedef std::vector<std::vector<long>> dp;
 
 void testcase() {
 	int n, m; std::cin >> n >> m;
-	forward_adj = adjacency(n, std::vector<std::pair<int, long>>());
-	backward_adj = adjacency(n, std::vector<std::pair<int, long>>());
-	mem = memo(n, -1);
-
-
-	// adj = adjacency(n, std::vector<std::pair<int, int>>());
-	// taken = std::vector<bool>(n, false);
+	adjacency fwd_adj(n, std::vector<std::pair<int, long>>());
+	adjacency bwd_adj(n, std::vector<std::pair<int, long>>());
+	dp dp(n, std::vector<long>(n, -1));
 
 	for (int i = 0; i < m; i++) {
 		int u, v, f; std::cin >> u >> v >> f;
-		//adj[u].push_back({v, f});
 
 		if (u < v)
-			forward_adj[u].push_back({v, f});
+			fwd_adj[u].push_back({v, f});
 		else
-			backward_adj[v].push_back({u, f});
+			bwd_adj[v].push_back({u, f});
 	}
 
-	std::cout << 2 * solve(0, 0) << std::endl;
+	dp[0][0] = 0;
+	for (int sum = 0; sum <= 2*(n - 1); sum++) {
+		for (int i = 0; i <= sum; i++) {
+			int j = sum - i;
+
+			if (i >= n
+				|| j >= n
+				|| (i == j && i != 0)
+				|| dp[i][j] == -1)
+				continue;
+
+			for (const auto [next_i, p_i]: fwd_adj[i])
+				if (next_i >= j)
+					dp[next_i][j] = std::max(dp[next_i][j], dp[i][j] + p_i);
+			
+			for (const auto [next_j, p_j]: bwd_adj[j])
+				if (next_j >= i)
+					dp[i][next_j] = std::max(dp[i][next_j], dp[i][j] + p_j);
+		}
+	}
+
+	std::cout << dp[n - 1][n - 1] << std::endl;
 }
 
 int main() {
