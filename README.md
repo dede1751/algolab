@@ -89,7 +89,7 @@ This is a collection of problems for the previous years I used to prepare for th
 | [Evolution](PreviousYears/2022/Evolution/this.pdf)                          | [evolution.cpp](PreviousYears/2022/Evolution/src/algorithm.cpp)                             | BS                       |
 | [FleetRace](PreviousYears/2022/FleetRace/this.pdf)                          | [fleet_race.cpp](PreviousYears/2022/FleetRace/src/algorithm.cpp)                            | MinCostMaxFlow           |
 | [LightTheStage](PreviousYears/2022/LightTheStage/this.pdf)                  | [light_the_stage.cpp](PreviousYears/2022/LightTheStage/src/algorithm.cpp)                   | BS + Delaunay            |
-| [LudoBagman](PreviousYears/2022/LudoBagman/this.pdf)                        | [ludo_bagman.cpp](PreviousYears/2022/LudoBagman/src/algorithm.cpp)                          |                          |
+| [LudoBagman](PreviousYears/2022/LudoBagman/this.pdf)                        | [ludo_bagman.cpp](PreviousYears/2022/LudoBagman/src/algorithm.cpp)                          | MinCostMaxFlow           |
 | [Marathon](PreviousYears/2022/Marathon/this.pdf)                            | [marathon.cpp](PreviousYears/2022/Marathon/src/algorithm.cpp)                               | MultiPath Dijkstra + MF  |
 | [NewTiles](PreviousYears/2022/NewTiles/this.pdf)                            | [new_tiles.cpp](PreviousYears/2022/NewTiles/src/algorithm.cpp)                              |                          |
 | [RevengeOfTheSith](PreviousYears/2022/RevengeOfTheSith/this.pdf)            | [revenge_of_the_sith.cpp](PreviousYears/2022/RevengeOfTheSith/src/algorithm.cpp)            | BS(really cool) + UF     |
