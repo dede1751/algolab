@@ -18,7 +18,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Beach Bars](Week02/BeachBars/this.pdf)                                | [beach_bars.cpp](Week02/BeachBars/src/algorithm.cpp)                                    | Week 2    | SW                       |
 | [The Great Game](Week02/TheGreatGame/this.pdf)                         | [the_great_game.cpp](Week02/TheGreatGame/src/algorithm.cpp)                             | Week 2    | Minimax + DP             |
 | [Lord Voldemort](Week02/LordVoldemort/this.pdf)                        | [lord_voldemort.cpp](Week02/LordVoldemort/src/algorithm.cpp)                            | Week 2    | DP + Precompute          |
-| [JamesBondSovereigns](Week03/JamesBondSovereigns/this.pdf)             | [james_bond_sovereigns.cpp](Week03/JamesBondSovereigns/src/algorithm.cpp)               | POTW 3    | DP (broken requirements) |
+| [JamesBondSovereigns](Week03/JamesBondSovereigns/this.pdf)             | [james_bond_sovereigns.cpp](Week03/JamesBondSovereigns/src/algorithm.cpp)               | POTW 3    | DP                       |
 | [FirstStepsBGL](Week03/FirstStepsBGL/this.pdf)                         | [first_steps_bgl.cpp](Week03/FirstStepsBGL/src/algorithm.cpp)                           | Week 3    | Dijkstra + MST           |
 | [BuddySelection](Week03/BuddySelection/this.pdf)                       | [buddy_selection.cpp](Week03/BuddySelection/src/algorithm.cpp)                          | Week 3    | Maximum Matching         |
 | [ImportantBridges](Week03/ImportantBridges/this.pdf)                   | [important_bridges.cpp](Week03/ImportantBridges/src/algorithm.cpp)                      | Week 3    | Biconnected Components   |
@@ -71,7 +71,7 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [Schneewittchen](Week13/Schneewittchen/this.pdf)                       | [schneewittchen.cpp](Week13/Schneewittchen/src/algorithm.cpp)                           | POTW 13   | CGAL LP + DFS            |
 | [AugeanStables](Week13/AugeanStables/this.pdf)                         | [augean_stables.cpp](Week13/AugeanStables/src/algorithm.cpp)                            | Week 13   | BS + LP (85/100)         |
 | [CasinoRoyale](Week13/CasinoRoyale/this.pdf)                           | [casino_royale.cpp](Week13/CasinoRoyale/src/algorithm.cpp)                              | Week 13   | MinCostMaxFlow           |
-| [DHL](Week13/DHL/this.pdf)                                             | [dhl.cpp](Week13/DHL/src/algorithm.cpp)                                                 | Week 13   | DP (99/100)              |
+| [DHL](Week13/DHL/this.pdf)                                             | [dhl.cpp](Week13/DHL/src/algorithm.cpp)                                                 | Week 13   | DP                       |
 | [FightingPitsOfMeeren](Week13/FightingPitsOfMeeren/this.pdf)           | [fighting_pits_of_meeren.cpp](Week13/FightingPitsOfMeeren/src/algorithm.cpp)            | Week 13   |                          |
 | [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   | Dijkstra + BS + MaxFlow  |
 
