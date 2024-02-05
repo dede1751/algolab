@@ -22,14 +22,14 @@ void testcase()
 	std::sort(s.begin(), s.end(), std::greater<int>());
 	std::sort(w.begin(), w.end(), std::greater<int>());
 
+	if (s[0] < w[0]) {
+		std::cout << "impossible" << std::endl;
+		return;
+	}
+
 	for (int i = 0, j = 0; i < m; i++) {
 		while (j < n && s[j] >= w[i])
 			j++;
-
-		if (j == 0) {
-			std::cout << "impossible" << std::endl;
-			return;
-		}
 
 		(*std::lower_bound(x.begin(), x.begin() + j - 1, x[j - 1], std::greater<int>()))++;
 	}
