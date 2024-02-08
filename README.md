@@ -75,6 +75,31 @@ is guaranteed. The script is meant to be used as specified by its documentation.
 | [FightingPitsOfMeeren](Week13/FightingPitsOfMeeren/this.pdf)           | [fighting_pits_of_meeren.cpp](Week13/FightingPitsOfMeeren/src/algorithm.cpp)            | Week 13   |                          |
 | [OnHerMajestySecretService](Week14/OnHerMajestySecretService/this.pdf) | [on_her_majesty_secret_service.cpp](Week14/OnHerMajestySecretService/src/algorithm.cpp) | POTW 14   | Dijkstra + BS + MaxFlow  |
 
+## Exam
+These are my solutions for the exam problems. Since from the exam paper I was only able to retrieve
+the sample tests, there is no correctness guarantee on these rewrites. The original versions scored
+full points, save for **Croquet** for which I can only guarantee a *75/100* score.
+
+Overall, the exam was much simpler than the general course content, and on top of the guaranteed
+repeat problems, **MadTeaParty** was also a near clone of **PlacingKnights**. The most challenging problem
+was by far **Croquet**, although it was possible to pick up a lot of points through individual cases.
+
+### Part 1
+| Problem                                                                     | Solution                                                                                    | Type                     | 
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------ |
+| [Croquet](Exam/P1/Croquet/this.pdf)                                         | [croquet.cpp](Exam/P1/Croquet/src/algorithm.cpp)                                            | Delaunay + Dijkstra      |
+| [QueenOfHearts](Exam/P1/QueenOfHearts/this.pdf)                             | [queen_of_hearts.cpp](Exam/P1/QueenOfHearts/src/algorithm.cpp)                              | Dijkstra + MinimumCut    |
+| [DownTheRabbitHole](Exam/P1/DownTheRabbitHole.pdf)                          | [down_the_rabbit_hole.cpp](Week10/RubeusHagrid/src/algorithm.cpp)                           | *RubeusHagrid Clone*     |
+
+
+### Part 2
+| Problem                                                                     | Solution                                                                                    | Type                     | 
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------ |
+| [RabbitClan](Exam/P2/RabbitClan/this.pdf)                                   | [rabbit_clan.cpp](Exam/P2/RabbitClan/src/algorithm.cpp)                                     | DP                       |
+| [MadTeaParty](Exam/P2/MadTeaParty/this.pdf)                                 | [mad_tea_party.cpp](Exam/P2/MadTeaParty/src/algorithm.cpp)                                  | Bipartite MaxIS          |
+| [Chronosphere](Exam/P2/Chronosphere.pdf)                                    | [chronosphere.cpp](Week11/Legions/src/algorithm.cpp)                                        | *Legions Clone*          |
+
+
 ## Previous Years
 This is a collection of problems for the previous years I used to prepare for the exam. 
 
